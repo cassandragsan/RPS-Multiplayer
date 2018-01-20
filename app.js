@@ -14,7 +14,7 @@
 var database = firebase.database();
 
 // Button for adding provider data
-$("#add-provider-btn").on("click", function(event) {
+$("#add-train-btn").on("click", function(event) {
   event.preventDefault();
 
   // Grabs user input from the form
@@ -29,7 +29,7 @@ $("#add-provider-btn").on("click", function(event) {
     train:  train, 
     destination: destination, 
     time:  time, 
-    frequnecy:  frequency
+    frequency:  frequency
   };
 
   // Uploads provider data to the database
